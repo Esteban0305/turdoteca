@@ -1,0 +1,141 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+*::-webkit-scrollbar {
+  width: 8px;     /* Tamaño del scroll en vertical */
+  height: 8px;    /* Tamaño del scroll en horizontal */
+  /* display: none;  Ocultar scroll */
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #29292950;
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #54545420;
+  border-radius: 2px;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 120px;
+}
+
+header {
+  display: flex;
+  padding: 10px calc(50% - 640px);
+  border-bottom: 1px solid #545454;
+  align-items: center;
+}
+
+header a {
+  margin-right: auto;
+}
+
+header .logo {
+  width: 200px;
+  height: 75px;
+  overflow: hidden;
+  position: relative;
+}
+
+header .logo img {
+  width: 200%;
+  height: 250%;
+  transform: translateX(-25%) translateY(-30%);
+  position: absolute;
+  object-fit: fill;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav li {
+  list-style: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px #ddd solid;
+  outline: none;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.error-alert {
+  padding: 15px;
+  background-color: #d64242;
+  color: #fff;
+  border-radius: 5px;
+  width: fit-content;
+  animation: go-up 8s ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translateY(-100%);
+}
+
+@keyframes go-up {
+  0% {
+    top: 100px;
+    transform: translateX(-50%);
+  }
+  75% {
+    top: 100px;
+    transform: translateX(-50%);
+  }
+  100% {
+    top: 0;
+    transform: translateX(-50%) translateY(-100%);
+  }
+}
+
+footer {
+  background-color: #292929;
+  color: #fff;
+  padding: 20px calc(50% - 640px);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .made {
+  display: flex;
+  align-items: center;
+}
+
+footer .made .made-logo{
+  width: 150px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+footer .made .made-logo img{
+  width: 200%;
+  height: 250%;
+  transform: translateX(-25%) translateY(-30%);
+  background-color: #fff;
+}
+
+footer .legal {
+  margin-left: auto;
+}

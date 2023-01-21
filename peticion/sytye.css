@@ -1,0 +1,27 @@
+.container {
+  padding: 20px calc(50% - 640px);
+}
+.container .top-rated {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container .top-rated table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.container .top-rated table th {
+  padding: 10px 20px;
+  text-align: left;
+}
+.container .top-rated table td {
+  padding: 5px 20px;
+  text-align: center;
+}
+.container .top-rated table td:first-child {
+  width: 100%;
+  text-align: left;
+}
+
+.container .top-rated table tr:nth-child(2n) {
+  background-color: #54545405;
+}
