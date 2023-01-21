@@ -1,6 +1,6 @@
 # Turdoteca
 
-Requerimientos:
+### Requerimientos:
 - php 8 o superior
 
 ### Instalación
