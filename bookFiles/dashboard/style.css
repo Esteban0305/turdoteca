@@ -1,0 +1,62 @@
+.container {
+  padding: 20px calc(50% - 720px);
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(100px, auto);
+  gap: 10px;
+}
+.books {
+  grid-column: span 3;
+  grid-row: span 2;
+  margin-right: 20px;
+}
+table {
+  padding: 10px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.uuid {
+  display: flex;
+}
+
+.uuid p {
+  margin-right: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-variation-settings:
+  'FILL' 0;
+}
+
+tr td{
+  padding: 10px;
+}
+tr th {
+  padding: 10px;
+  text-align: left;
+}
+tr {
+  border-bottom: solid 1px #54545450;
+}
+
+.petitions {
+  box-shadow: 0 0 10px #54545420;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.petitions .pet{
+  display: flex;
+  align-items: center;
+}
+
+.petitions .pet .number {
+  margin-right: 10px;
+}
+.petitions .pet a {
+  margin-left: auto;
+}
+
+.new-book {
+  padding: 10px;
+}
