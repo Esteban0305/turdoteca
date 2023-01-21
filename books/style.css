@@ -1,0 +1,177 @@
+header {
+  display: flex;
+  padding: 10px calc(50% - 640px);
+  border-bottom: 1px solid #545454;
+  align-items: center;
+}
+
+header a {
+  margin-right: auto;
+}
+
+header .logo {
+  width: 200px;
+  height: 75px;
+  overflow: hidden;
+  position: relative;
+}
+
+header .logo img {
+  width: 200%;
+  height: 250%;
+  transform: translateX(-25%) translateY(-30%);
+  position: absolute;
+  object-fit: fill;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav li {
+  list-style: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.common {
+  display: flex;
+  padding: 10px calc(50% - 640px);
+  background-color: #545454;
+  color: #fff;
+}
+
+.common li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.nav-search {
+  padding: 5px calc(50% - 640px);
+}
+
+.nav-search form {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.nav-search select {
+  padding: 9px;
+  border: 1px #ddd solid;
+  outline: none;
+  border-radius: 5px;
+}
+
+.nav-search input {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.nav-search button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search button span {
+  margin-right: 5px;
+}
+
+.books-result {
+  padding: 0 calc(50% - 640px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  gap: 50px 20px;
+}
+
+.flex-phrases {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.flex-phrases .no-found, .flex-phrases .init {
+  width: 20%;
+  text-align: center;
+  font-size: 16pt;
+  margin: 50px auto;
+}
+
+.flex-phrases .init > p {
+  margin-top: 20px;
+}
+
+.likes span {
+  font-variant: filled;
+}
+
+.books-result .book {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.books-result .book .cover {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.books-result .book .cover img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.books-result .book .book-data {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.books-result .book .book-data .title {
+  font-size: 16pt;
+  border-bottom: #545454 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.books-result .book .book-data .author {
+  margin-bottom: 15px;
+}
+
+.books-result .book .book-data .sinopsis {
+  margin-bottom: 10px;
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 9; /* number of lines to show */
+           line-clamp: 9; 
+   -webkit-box-orient: vertical;
+}
+
+.books-result .book .book-data .likes {
+  display: flex;
+  align-items: center;
+}
+
+.books-result .book .book-data .likes span {
+  margin-right: 10px;
+}
+
+.pagination-search {
+  grid-column: span 2;
+  display: flex;
+}
+
+.pagination-search a {
+  display: flex;
+  align-items: center;
+}
+
+.pagination-search .next {
+  margin-left: auto;
+}

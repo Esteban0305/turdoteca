@@ -1,0 +1,17 @@
+{
+    "title": "Yo, robot",
+    "uuid": "583f39d8-6470-4734-89bc-c0644b649c4d",
+    "subject": [
+        "Ciencia Ficción",
+        "Fantástico"
+    ],
+    "readers": 0,
+    "added": "1674320048",
+    "creator": "Isaac Asimov",
+    "description": "Los robots de Isaac Asimov son máquinas capaces de llevar a cabo muy diversas tareas, y que a menudo se plantean a sí mismos problemas de 'conducta humana'. Pero estas cuestiones se resuelven en Yo, robot en el ámbito de las tres leyes fundamentales de la robótica, concebidas por Asimov, y que no dejan de proponer extraordinarias paradojas que a veces se explican por errores de funcionamiento y otras por la creciente complejidad de los 'programas'. Las paradojas que se plantean en estos relatos futuristas no son sólo ingeniosos ejercicios intelectuales sino sobre todo una indagación sobre la situación del hombre actual en relación con los avances tecnológicos y con la experiencia del tiempo.",
+    "flow": [],
+    "likes": 0,
+    "comments": 0,
+    "cover": "Images\/cubierta.jpg",
+    "chapters": []
+}

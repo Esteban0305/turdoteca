@@ -1,0 +1,16 @@
+.container {
+  padding: 30px calc(50% - 640px);
+  display: flex;
+  flex-direction: column;
+}
+
+.container .inicio {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #43cfd7 0%, #72d154 100%);
+  color: #ffffff;
+  font-weight: 100;
+  box-sizing: border-box;
+  margin-top: 20px;
+  text-align: center;
+}

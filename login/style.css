@@ -1,0 +1,87 @@
+/* 36558F */
+body {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  padding: 10px calc(50% - 480px);
+}
+
+header .logo {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+header .logo img {
+  width: 200%;
+  height: 200%;
+  object-fit: fill;
+  position: absolute;
+  transform: translateX(-50%) translateY(-25%);
+  margin-left: -11px;
+}
+
+.login {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 30px #36558F20;
+  margin: auto;
+}
+
+.login .side {
+  width: 50%;
+  padding: 50px;
+  color: #fff;
+  font-size: 16pt;
+  background-color: #36558F;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.login .side .phrase {
+  width: 100%;
+  margin: auto;
+}
+
+.login .side .author {
+  width: 100%;
+  text-align: left;
+}
+
+.login form {
+  padding: 50px;
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.login form h2 {
+  margin-bottom: 20px;
+}
+
+.login form input {
+  width: 75%;
+  margin: 10px auto;
+}
+
+.login form input[type="submit"] {
+  background-color: #36558F;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 10px;
+}
