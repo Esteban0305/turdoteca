@@ -9,8 +9,7 @@ Para la inicialización de los libros abrir localhost/turdoteca/bookFiles/?added
 En caso de que genere errores por la clase ZipArchive:
 Agregar
 
-```python
-php
+```php
 extension=php_zip.dll
 ```
 
