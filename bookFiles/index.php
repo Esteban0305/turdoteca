@@ -5,6 +5,10 @@
 
   $addedBooks = [];
 
+  if (!is_dir('bookSave/')) {
+    mkdir('bookSave/');
+  }
+
   foreach ($books as $epubName) {
     if (!in_array($epubName, $notABook)) {
       // Path to Raw Extracted

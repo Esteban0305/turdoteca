@@ -19,6 +19,10 @@
     $sesion = true;
   }
 
+  if (!is_dir('db/books/')) {
+    mkdir('db/books/');
+  }
+
   session_write_close();
 ?>
 <!DOCTYPE html>
