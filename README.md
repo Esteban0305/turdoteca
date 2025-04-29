@@ -17,24 +17,15 @@ Turdoteca es una biblioteca virtual desarrollada en PHP, HTML, CSS y JSON, está
 * En el **modo lectura** se puede cambiar el **tema y tamaño de letra**
 * A los administradores les permite **listar**, **añadir**, **cambiar las portadas** y ver las **estadísticas** de los libros
 
+## Requerimientos
+
+* Docker
+
 ## Instalación
 
-### Requerimientos
-
-* Windows 10 o superior
-* php 8 o superior
-
-1. En el archivo php.ini en Module Settings se debe agregar la siguiente línea
-
-    ```ini
-    extension=php_zip.dll
-    ```
-
-    con ella podemos utilizar la librería ZipArchive para la descompresión de los archivos EPub.
-
-2. Iniciar el servicio de php
-3. Para la inicialización de los libros abrir `/bookFiles/?added`
-4. Una vez que se listen los libros abrir `/bookFiles/dashboard/?goldenapple` para la administración de la biblioteca.
+1. Ejecutar ```bash docker compose up```
+2. Para la inicialización de los libros abrir `/bookFiles/?added`
+3. Una vez que se listen los libros abrir `/bookFiles/dashboard/?goldenapple` para la administración de la biblioteca.
 
 ## ¿Cómo funciona?
 
