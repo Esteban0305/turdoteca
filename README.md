@@ -26,7 +26,7 @@ Turdoteca es una biblioteca virtual desarrollada en PHP, HTML, CSS y JSON, está
 1. Ejecutar ```bash docker compose up```
 2. Para la inicialización de los libros abrir `localhost:8080/bookFiles/?added`
 
-  Tardará un poco, y luego aparecerán los libros agregados
+    Tardará un poco, y luego aparecerán los libros agregados
 
 3. Abrir [localhost:8080](localhost:8080) y estará la página principal.
 
