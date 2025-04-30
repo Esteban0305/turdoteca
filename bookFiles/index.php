@@ -9,6 +9,10 @@
     mkdir('bookSave/');
   }
 
+  if (!is_dir('../db/books/')) {
+    mkdir('../db/books/');
+  }
+
   foreach ($books as $epubName) {
     if (!in_array($epubName, $notABook)) {
       // Path to Raw Extracted
