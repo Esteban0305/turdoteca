@@ -1,5 +1,7 @@
 .my-account {
-  padding: 20px calc(50% - 640px);
+  max-width: 1280px;
+  width: calc(100% - 50px);
+  margin: auto;
   display: flex;
 }
 
@@ -56,7 +58,9 @@
 }
 
 .books {
-  padding: 20px calc(50% - 640px);
+  max-width: 1280px;
+  width: calc(100% - 50px);
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -192,4 +196,13 @@
 
 .delete-account input {
   background-color: #FE1600;
+}
+
+@media (max-width: 720px) {
+  .books h2 {
+    grid-column: span 2;
+  }
+  .books {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

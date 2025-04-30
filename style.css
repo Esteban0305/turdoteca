@@ -49,11 +49,34 @@ header nav li {
   z-index: 1000;
   background-color: #fff;
   padding: 20px;
+  text-align: right;
 }
 
 .pageDescription .logo {
   width: 50%;
   margin-left: auto;
+}
+
+.pageDescription .logo img {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .pageDescription {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pageDescription .description {
+    font-size: 18pt;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .pageDescription .logo {
+    width: 100%;
+    margin: -20% 0;
+  }
 }
 
 .covers {
@@ -71,6 +94,12 @@ header nav li {
   box-shadow: 0 0 10px #54545450;
   max-width: calc(20% - 5px);
   animation: slider 20s infinite linear;
+}
+
+@media (max-width: 720px) {
+  .covers img {
+    max-width: calc(40% - 5px);
+  }
 }
 
 .covers:hover img{

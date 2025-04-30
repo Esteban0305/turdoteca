@@ -28,7 +28,7 @@ header .logo img {
 
 .login {
   max-width: 960px;
-  width: 100%;
+  width: calc(100% - 50px);
   display: flex;
   border-radius: 10px;
   box-shadow: 0 0 30px #36558F20;
@@ -112,4 +112,14 @@ header .logo img {
 .avatars .avatar img {
   width: 30%;
   border-radius: 50%;
+}
+
+@media (max-width: 720px) {
+  .login .side {
+    display: none;
+  }
+
+  .login form {
+    width: 100%;
+  }
 }

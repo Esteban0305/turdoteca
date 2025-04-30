@@ -29,7 +29,7 @@ header .logo img {
 
 .login {
   max-width: 960px;
-  width: 100%;
+  width: calc(100% - 50px);
   display: flex;
   border-radius: 10px;
   overflow: hidden;
@@ -84,4 +84,17 @@ header .logo img {
 
 .signup {
   margin-top: 10px;
+}
+
+@media (max-width: 720px) {
+  .login {
+
+  }
+  .login .side {
+    display: none;
+  }
+
+  .login form {
+    width: 100%;
+  }
 }

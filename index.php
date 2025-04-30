@@ -58,14 +58,14 @@
 
   <div class="container">
     <div class="pageDescription">
+      <div class="logo">
+        <img src="imgs/turdoteca_logo.svg" alt="TurdoTeca Logo">
+      </div>
       <p class="description">
         <?php
           echo $phrases[floor(random_int(1, count($phrases)) - 1)];
         ?>
       </p>
-      <div class="logo">
-        <img src="imgs/turdoteca_logo.svg" alt="TurdoTeca Logo">
-      </div>
     </div>
     <div class="covers">
         <?php
